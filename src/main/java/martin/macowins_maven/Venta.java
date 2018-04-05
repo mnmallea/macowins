@@ -6,6 +6,11 @@ import java.util.List;
 public class Venta{
 	public Date fecha;
 	public List<Item> items;
+	
+	public Venta(Date unaFecha, List<Item> unosItems) {
+		this.fecha = unaFecha;
+		this.items = unosItems;
+	}
 
 	public boolean esDeFecha(Date unaFecha) {
 		// TODO Auto-generated method stub
